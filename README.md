@@ -2,6 +2,7 @@
 # Chrome Extension Install/Uninstall Tool
 
 This repository contains a Chrome extension management tool implemented in three programming languages: **Rust**, **C++**, and **JavaScript**. Each implementation provides functionality to install and uninstall Chrome extensions in developer mode.
+**Note**: This tool is intended solely for testing and learning purposes. It must not be used for any unethical or malicious activities.
 
 ---
 
@@ -22,7 +23,7 @@ This repository contains a Chrome extension management tool implemented in three
 
 This tool allows you to:
 - Install a Chrome extension by extracting its `.zip` package into the appropriate browser directories.
-- Uninstall a Chrome extension by removing its files and updating browser preferences.
+- Uninstall a Chrome extension with its name by removing its files and updating browser preferences.
 
 Each implementation supports the following key operations:
 1. Read and modify Chrome user profile directories.
@@ -96,8 +97,8 @@ Each implementation supports the following key operations:
    - Build the solution to generate the executable.
 
 2. **Execution**:
-   - Double-click the compiled executable to run the application.
-   - Use the tray icon menu to select `Install` or `Uninstall` options.
+   - Place an extension's zip file to same directory to the compiled executable and run the application.
+   - Use the tray icon to `Install` or `Uninstall` the extension.
 
 ---
 
