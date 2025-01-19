@@ -1,0 +1,26 @@
+[package]
+name = "extensionsetup"
+version = "0.1.0"
+edition = "2025"
+
+[profile.dev]
+debug = true
+panic = "unwind"
+
+[profile.release]
+debug = true
+panic = "unwind"
+
+
+[dependencies]
+rand = "0.8"
+anyhow = "1.0" 
+dirs = "4.0"         # For accessing the home directory
+regex = "1.7"        # For regex pattern matching
+hmac = "0.12"        # For HMAC generation
+sha2 = "0.10"        # For the SHA256 hashing algorithm
+hex = "0.4"          # For hex encoding of the output
+zip = "0.6"          # For handling ZIP files
+serde = "1.0"        # For JSON parsing
+serde_json = "1.0"   # For working with JSON files
+
